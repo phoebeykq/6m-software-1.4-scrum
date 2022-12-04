@@ -67,13 +67,11 @@ class Permission {
                 return false; 
             default: 
                 return false; 
-
         }
     }
 }
 
 // Add code here
-
 class Document extends Permission {
     #content; 
     constructor(role, operation, content) {

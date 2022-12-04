@@ -30,14 +30,14 @@ class TvSignal extends BaseSignal {
 class AirconSignal extends BaseSignal {
     constructor() {
         // Add code here
-        super("door"); 
+        super("aircon"); 
     }
 }
 
 class DoorSignal extends BaseSignal {
     constructor() {
         // Add code here
-        super("aircon"); 
+        super("door"); 
     }
 }
 
